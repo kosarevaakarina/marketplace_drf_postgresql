@@ -1,0 +1,549 @@
+[
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 4,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 4,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 4,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 4,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 5,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 5,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 5,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 5,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add пользователь",
+      "content_type": 6,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change пользователь",
+      "content_type": 6,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete пользователь",
+      "content_type": 6,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view пользователь",
+      "content_type": 6,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add товар",
+      "content_type": 7,
+      "codename": "add_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change товар",
+      "content_type": 7,
+      "codename": "change_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete товар",
+      "content_type": 7,
+      "codename": "delete_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view товар",
+      "content_type": 7,
+      "codename": "view_product"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "users",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "market",
+      "model": "product"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "t6zr2ogrhuounzn4f1bbbss7p2qk9sjw",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hAYxEGX7nuGZpgBqRpISrsy3l2bdKHb_977LzXSupRx7WkeJ1EXZdXhd4vEj1Q3IHeqt6a51WWeot4UvdOuhybped3dv4NCvXzrjN64I1sbXWD2IgQApxwSRIBwhoCehBkABQyjyWhAHHvH4izaqN4f19s3hg:1qg3QN:Ow2UwJtV54ij1xJxqggkjfDRKFCWx5i9Ll34OyhTFTU",
+      "expire_date": "2023-09-26T13:27:27.404Z"
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$O7Sa2faKxcEIK8iugKzltQ$eU3p9vkEnMz/MC3ojD3Zajq8AxGNbRDLixnJm9SZD8Q=",
+      "last_login": "2023-09-12T13:27:27.399Z",
+      "is_superuser": true,
+      "is_staff": true,
+      "date_joined": "2023-09-12T13:21:33.539Z",
+      "email": "admin@mail.ri",
+      "first_name": "",
+      "last_name": "",
+      "phone": "",
+      "role": "",
+      "is_active": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$FItpz7CmzT40blndSn2r8G$NXjRZ0x/uuD6jmsr5lsapbx+tu/BqokZ1bGuqCmeE/E=",
+      "last_login": null,
+      "is_superuser": false,
+      "is_staff": false,
+      "date_joined": "2023-09-12T13:24:50.965Z",
+      "email": "kosarevartem@yandex.ru",
+      "first_name": "Артём",
+      "last_name": "Косарев",
+      "phone": "+79991112233",
+      "role": "CUSTOMER",
+      "is_active": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$WbIwMv5APPCwVv9734u9J8$Db5l0qpVyaXT94+1sslKjLI5vj7c+zrLf8VkUZI2tXI=",
+      "last_login": null,
+      "is_superuser": false,
+      "is_staff": false,
+      "date_joined": "2023-09-12T13:25:20.722Z",
+      "email": "kosarevakarina@mail.ru",
+      "first_name": "Карина",
+      "last_name": "Косарева",
+      "phone": "+79998889998",
+      "role": "SELLER",
+      "is_active": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$xkiUNOHFqQnFv64iXYOrHA$DdudzCtAzdrJ/Vt2OO2mT3JU6JLy/h1Uy6gSzhcn3k4=",
+      "last_login": null,
+      "is_superuser": false,
+      "is_staff": false,
+      "date_joined": "2023-09-12T13:25:58.277Z",
+      "email": "sashabaluk@mail.ru",
+      "first_name": "Александр",
+      "last_name": "Балюк",
+      "phone": "+79995554442",
+      "role": "SELLER",
+      "is_active": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$ZiHO5qnJaKForB0TLLCJWG$K27MmpwsU7N5iTmKkbOj8BR0tl5+QMybapACgjUGBk8=",
+      "last_login": null,
+      "is_superuser": false,
+      "is_staff": false,
+      "date_joined": "2023-09-12T13:26:40.947Z",
+      "email": "marivyat@yandex.ru",
+      "first_name": "Мари",
+      "last_name": "Вяткина",
+      "phone": "+79621115678",
+      "role": "CUSTOMER",
+      "is_active": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 6,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$0iYNEgiz4XjHxVbhqHHv1t$d0BIcc5SdgIUMkKDG/bHaSXHPo9XS8c1HJT8RyF6vG0=",
+      "last_login": null,
+      "is_superuser": false,
+      "is_staff": false,
+      "date_joined": "2023-09-12T13:33:14.568Z",
+      "email": "test@mail.ru",
+      "first_name": "Test",
+      "last_name": "Testov",
+      "phone": "+79625554551",
+      "role": "SELLER",
+      "is_active": false,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "market.product",
+    "pk": 1,
+    "fields": {
+      "title": "Беспроигрышный лотерейный билет",
+      "price": 194616,
+      "cost_price": 150000,
+      "description": "Лотерейный билет с выигрышем 250к",
+      "image": "product/6089332885.jpg",
+      "owner": 3,
+      "is_published": true
+    }
+  },
+  {
+    "model": "market.product",
+    "pk": 2,
+    "fields": {
+      "title": "Велосипед",
+      "price": 41518,
+      "cost_price": 32000,
+      "description": "Велосипед б/у, нужно поменять заднее колесо",
+      "image": "product/bike.jpg",
+      "owner": 3,
+      "is_published": true
+    }
+  },
+  {
+    "model": "market.product",
+    "pk": 3,
+    "fields": {
+      "title": "Билет на концерт Imagine Dragons в Тбилиси",
+      "price": 23353,
+      "cost_price": 18000,
+      "description": "Билет на концерт, который состоится 31.08.2023 (танцпол)",
+      "image": "product/imagine.jpg",
+      "owner": 4,
+      "is_published": true
+    }
+  },
+  {
+    "model": "market.product",
+    "pk": 4,
+    "fields": {
+      "title": "Сковорода",
+      "price": 1280,
+      "cost_price": 987,
+      "description": "Сковорода с антиприграрным покрытием, новая",
+      "image": "product/pan.jpg",
+      "owner": 4,
+      "is_published": true
+    }
+  },
+  {
+    "model": "market.product",
+    "pk": 5,
+    "fields": {
+      "title": "Картина по номерам",
+      "price": 705,
+      "cost_price": 544,
+      "description": "Картина по номерам",
+      "image": "product/painting.jpg",
+      "owner": 4,
+      "is_published": true
+    }
+  },
+  {
+    "model": "market.product",
+    "pk": 6,
+    "fields": {
+      "title": "Гитара электрическая",
+      "price": 42166,
+      "cost_price": 32500,
+      "description": "Шестиструнная эл. гитара. Крепление грифа: на 4-х болтах; дека: липа; гриф: клен; мензура: 25,5\"; накладка: палисандр; порожек: графит 42мм; лады: 24 medium; инкрустация: точки, готический крест на 12-м ладу; звукосниматели: SGR by SCHECTER Diamond",
+      "image": "product/guitar.jpg",
+      "owner": 4,
+      "is_published": true
+    }
+  },
+  {
+    "model": "market.product",
+    "pk": 7,
+    "fields": {
+      "title": "Хоккейная клюшка",
+      "price": 4541,
+      "cost_price": 3500,
+      "description": "Хоккейная клюшка Winnwell ST1813M-PS119, Левый хват, 69 см",
+      "image": "product/hocker_stick.jpg",
+      "owner": 3,
+      "is_published": true
+    }
+  },
+  {
+    "model": "market.product",
+    "pk": 8,
+    "fields": {
+      "title": "Футболка",
+      "price": 129,
+      "cost_price": 100,
+      "description": "Белая, б/у",
+      "image": "product/t-shirt.jpg",
+      "owner": 3,
+      "is_published": true
+    }
+  },
+  {
+    "model": "market.product",
+    "pk": 9,
+    "fields": {
+      "title": "Футболка",
+      "price": 129,
+      "cost_price": 100,
+      "description": "Белая, б/у",
+      "image": "product/t-shirt_2TNSkUV.jpg",
+      "owner": 3,
+      "is_published": false
+    }
+  }
+]
